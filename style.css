@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+    font-weight: 100;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #202124;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    font: 13px/27px Roboto,Arial,sans-serif;;
+    font-size: 13px;
+    color: white;
+    font-weight: lighter;
+    height: 48px;
+    padding: 10px;
+}
+
+.head img{
+    border-radius: 50%;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra input{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    border-radius: 20px;
+    background-color: #202124;
+    color: white;
+    border: solid #999DA2;
+    padding: 3px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.button{
+    border:none;
+    border-radius: 4px;
+    background-color: #303134;
+    color: white;
+    padding: 12px 24px;
+    width: 180px; 
+    text-align: center;
+    justify-items: center;
+    margin: 11px 4px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: #999DA2;
+    background-color:#171717;
+     
+}
+
+.footerup{
+    border-bottom: 1px solid #3c4043;
+    padding: 15px 30px;
+}
+
+.footerdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #999DA2;
+    background-color: #171717;
+    padding: 0 20px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    padding: 15px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%; 
+    padding: 15px;
+}
+
+body, input, button, footer {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
